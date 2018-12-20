@@ -1,0 +1,22 @@
+<!DOCTYPE infos_PC [
+ <!ELEMENT infos_PC (modele*)>
+ <!ELEMENT modele (nom,prix_unitaire,fournisseur,particularites)>
+ <!ELEMENT nom (#PCDATA)>
+ <!ELEMENT prix_unitaire (#PCDATA)>
+ <!ELEMENT fournisseur (#PCDATA)>
+ <!ELEMENT particularites (#PCDATA)>
+]>
+<infos_PC>
+ <modele>
+ <nom>PC Home</nom>
+ <prix_unitaire>5999</prix_unitaire>
+ <fournisseur>Sulyo</fournisseur>
+ <particularites>Base + lecteur DVD</particularites>
+ </modele>
+ <modele>
+ <nom>PC Multimedia</nom>
+ <prix_unitaire>7999</prix_unitaire>
+ <fournisseur>Fukoji</fournisseur>
+ <particularites>PC HOME + ecran 19 + carte son</particularites>
+ </modele>
+</infos_PC>
